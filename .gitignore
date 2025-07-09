@@ -1,0 +1,69 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# No local data storage - streaming only!
+# data/
+# *.csv
+# *.json
+# *.parquet
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints
+
+# MLflow
+mlruns/
+mlflow.
+
+# Environment
+.env.dev
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules and Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Model artifacts (use MLflow instead)
+models/
+checkpoints/
+
+# Cache directories
+.cache/
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+
+# API keys and secrets
+*.key
+*.pem
+kaggle.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
